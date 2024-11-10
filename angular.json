@@ -94,6 +94,23 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "notizblock:build:production",
+              "serveTarget": "notizblock:serve:production"
+            },
+            "development": {
+              "buildTarget": "notizblock:build:development",
+              "serveTarget": "notizblock:serve:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }

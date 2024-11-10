@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "da-notes-43717": {
+      "hosting": {
+        "notizblock": [
+          "da-notes-43717"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "da-notes-43717"
+  }
+}
